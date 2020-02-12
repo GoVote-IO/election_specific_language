@@ -1,0 +1,28 @@
+election do {
+  name "string"
+  date "date string"
+  poll_start_date "datetime string"
+  poll_close_date "datetime string"
+  description "string"
+  locale "US"
+  voting_precint "string"
+
+  position do {
+    name "string"
+    description "string"
+    allow_write_in boolean
+    candidates do [
+      candidate do {} end
+      candidate do {} end
+    ] end
+  }
+
+  measures do [
+    measure do {
+      name "string"
+      description "string"
+      affirmative_description "string"
+      dissenting_description "string"
+    } end
+  ] end
+}

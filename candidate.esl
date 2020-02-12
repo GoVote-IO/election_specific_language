@@ -1,0 +1,6 @@
+candidate do {
+  given_name "string"
+  surname "string"
+  party_affiliation "string"
+  position "string"
+} end

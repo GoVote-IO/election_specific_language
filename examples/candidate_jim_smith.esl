@@ -1,0 +1,6 @@
+candidate do {
+  given_name "Jim"
+  surname "Smith"
+  party_affiliation "Democrat"
+  position "president"
+} end
